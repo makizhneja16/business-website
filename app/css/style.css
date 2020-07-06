@@ -3,4 +3,95 @@ body{
     background-position: center top;
     background-repeat: no-repeat;
     height: 5227px;
+    
+}
+
+.container{
+    width: 1106px;
+    margin: auto;
+}
+
+header{
+    height: 62px;
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper .logo h1{
+    font-size: 33px;
+    color: #565b5d;
+    margin: auto;
+    padding: 11px 0px;
+}
+.navi{
+    display: flex;
+    list-style: none;
+}
+}
+
+.navi li{
+
+}
+
+.navi li a{
+    display: inline-block;
+    margin: 3px 30px;
+    color: #4d5458;
+    text-decoration: none;
+}
+
+#hero{
+    height: 584px;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-wrapper .hero-text h1{
+    font-size: 56px;
+    padding: 59px 0px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.hero-wrapper .hero-text p{
+
+        font-size: 30px;
+        margin-top: -85px; 
+}
+
+.hero-wrapper .hero-image {
+    padding: 66px 89px;
+}
+}
+
+
+
+.link a{
+    border: solid 4px skyblue;
+    color: white;
+    text-decoration: none;
+    background-color: skyblue;
+    font-size: 40px;
+}
+
+
+
+#about{
+    height: 445px;
+}
+
+#features{
+    height: 595px;
+}
+    
+#service{
+    height: 530px;
 }
