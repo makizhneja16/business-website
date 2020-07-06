@@ -67,13 +67,6 @@ header{
         margin-top: -85px; 
 }
 
-.hero-wrapper .hero-image {
-    padding: 66px 89px;
-}
-}
-
-
-
 .link a{
     border: solid 4px skyblue;
     color: white;
@@ -81,6 +74,15 @@ header{
     background-color: skyblue;
     font-size: 40px;
 }
+
+
+.hero-wrapper .hero-image {
+    padding: 66px 89px;
+}
+
+
+
+
 
 
 
