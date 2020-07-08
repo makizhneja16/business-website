@@ -245,4 +245,114 @@ header{
 
 #service{
     height: 530px;
+    
+}
+
+
+
+
+.section-header{
+    padding-top: 18px;
+    
+}
+
+.section-header h2{
+    font-size: 40px;
+    text-align: center;
+    color: #637780;
+    font-weight: 500;
+}
+
+.section-header p{
+    font-size: 21px;
+    text-align: center;
+    color: #596777;
+}
+
+.section-body{
+    
+
+}
+.card-type-1-wrapper{
+    display: flex;
+}
+
+
+.card-type-1-wrapper .card-type-1{
+
+    flex-basis: 25%;
+    margin: 0px 30px;
+    background-color: #fff;
+        
+}
+
+.card-type-1 .icon-wrapper{
+        
+        text-align: center;
+        margin-top: 38px;
+    }
+.card-type-1 h3{
+
+    text-align: center;
+    font-size: 25px
+    color: #1a1a2b;
+}
+
+.card-type-1 p{
+    text-align: center;
+    font-size: 18px;
+    color: #656e71;
+
+}
+
+
+.card-type-1 .icon-wrapper i{
+    font-size: 36px;
+}
+
+.card-type-1 .icon-wrapper.color-1 {
+ color: violet;
+}
+
+.card-type-1 .icon-wrapper.color-2 {
+ color: red;
+}
+
+.card-type-1 .icon-wrapper.color-3 {
+color: green;
+}
+
+.card-type-1 .icon-wrapper.color-4 i{
+color: blue;
+}
+
+
+#portfolio{
+    padding-top: 166px;
+}
+
+.section-header-1{
+    
+}
+.section-header-1 h3{
+    
+}
+.section-header-1 p{
+    
+}
+
+.card-type-2-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    
+    
+}
+
+.card-type-2-wrapper .card-type-2{
+    flex-basis: 33.3%;
+}
+
+.card-type-2 img{
+       max-width: 100%;
 }
