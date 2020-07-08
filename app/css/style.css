@@ -187,7 +187,62 @@ header{
 #features{
     height: 595px;
 }
+
+.feature-wrapper{
+
+    display: flex;
+    justify-content: space-between;
     
+}
+ 
+.feature-wrapper .feature-lists{
+    
+    padding-top: 68px;
+    
+    
+}
+
+.feature-wrapper .feature-image{
+    
+    padding-top: 64px;
+    text-align: right;
+    
+}
+.feature-image img{
+    max-width: 476px;
+    display: inline-block
+}
+.feature-list {
+    padding: 1px;
+    padding-left: 18px;
+    border: solid 5px transparent
+}
+
+
+.feature-list.active{
+    
+        border-left: solid 5px #009ce9;
+        color: #fbfbfb
+}
+
+.feature-list h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #638398;
+}
+
+
+
+.feature-list p{
+    
+    margin-bottom: 16px;
+    color: #66757b;
+}
+
+
+
+
+
 #service{
     height: 530px;
 }
