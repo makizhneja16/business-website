@@ -243,10 +243,15 @@ header{
 
 
 
-#service{
-    height: 530px;
+
+
+
+#services{
     
+    height: 536px;
 }
+    
+
 
 
 
@@ -264,7 +269,7 @@ header{
 }
 
 .section-header p{
-    font-size: 21px;
+    font-size: 19px;
     text-align: center;
     color: #596777;
 }
@@ -328,29 +333,28 @@ color: blue;
 
 
 #portfolio{
-    padding-top: 166px;
+    
 }
 
-.section-header-1{
+.section-header{
     
 }
-.section-header-1 h3{
-    
-}
-.section-header-1 p{
-    
+
+.section-body{
+
 }
 
 .card-type-2-wrapper{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     
     
 }
 
 .card-type-2-wrapper .card-type-2{
-    flex-basis: 33.3%;
+    flex-basis: 31.3%;
+    margin: 11px 11px;
+    
 }
 
 .card-type-2 img{
