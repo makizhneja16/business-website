@@ -32,7 +32,7 @@ header{
     display: flex;
     list-style: none;
 }
-}
+
 
 .navi li{
 
@@ -89,7 +89,7 @@ header{
     
 }
 
-.link a{
+.primary-button{
     font-size: 20px;
     color: white;
     padding: 13px 31px;
@@ -249,6 +249,7 @@ header{
 #services{
     
     height: 536px;
+    background-color: #f7f8fa;
 }
     
 
@@ -307,6 +308,7 @@ header{
     text-align: center;
     font-size: 18px;
     color: #656e71;
+    margin-bottom: 50px;
 
 }
 
@@ -333,7 +335,7 @@ color: blue;
 
 
 #portfolio{
-    
+    height: 1129px;
 }
 
 .section-header{
@@ -359,4 +361,98 @@ color: blue;
 
 .card-type-2 img{
        max-width: 100%;
+}
+
+
+
+#c2a{
+
+    
+    background-image: url('../images/cta-bg.jpg');
+    background-attachment: fixed;
+}
+
+.c2a-overlay{
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.c2a-wrapper{
+ display: flex;
+ justify-content: space-between;
+ height: 262px;
+ align-items: center;
+ 
+}
+.c2a-wrapper .c2a-text{
+
+    flex-basis: 70%
+}
+
+.c2a-text h2{
+    font-size: 30px;
+    line-height: 7px;
+}
+
+.c2a-text p{
+    font-size: 21px;
+    
+}
+
+.c2a-wrapper .c2a-link{
+    
+    flex-basis: 20%
+}
+
+
+
+#team{
+    
+   background-image: url('../images/team-bg.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+    height: 690px;
+
+}
+
+.team-overlay{
+   background-color: rgba(255, 255, 255, 0.7);
+   height: 690px;
+
+}
+
+.card-type-3-wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+
+.card-type-3-wrapper .card-type-3{
+    
+    flex-basis: 32%;
+}
+
+.card-type-3 img{
+
+    max-width: 100%;
+}
+
+.card-type-3 .style{
+
+     background-color: white;
+     padding: 7px;
+
+}
+
+.card-type-3 .style h3{
+    
+    text-align: center;
+    
+}
+
+.card-type-3 .style p{
+    
+    text-align: center;
+
+    
 }
