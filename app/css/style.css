@@ -315,15 +315,29 @@ color: blue;
  .card-type-3 img{
   max-width: 100%;
  }
- .card-type-3 .style{
+ .card-type-3 .card-content{
    background-color: white;
    padding: 22px;
+   margin: 0px 15px 0px;
+   position: relative;
+   top: -54px;
 
 }
- .card-type-3 .style h3{
+ .card-type-3 .card-content h3{
    text-align: center;
    padding-bottom: 15px;
+   position: relative;
 }
- .card-type-3 .style p{
+.card-type-3 .card-content h3:after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #ccc;
+    margin: auto;
+    position: relative;
+    top: 6px;
+}
+ .card-type-3 .card-content p{
   text-align: center;
 }
