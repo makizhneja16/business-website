@@ -3,52 +3,54 @@ body{
     background-position: center top;
     background-repeat: no-repeat;
     height: 5227px;
-    
-}
-
+}   
 .container{
     width: 1106px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
-
+.primary-button{
+    display: inline-block;
+    text-decoration: none;
+    color: #e2f4fc;
+    margin-top: 19px;
+    padding: 20px;
+    font-size: 17px;
+    background-color: #009ce8;
+    border-radius: 17px;
+    width: 111px;
+    text-align: center;
+}
 header{
     height: 62px;
     background-color: white;
-
 }
-
 .header-wrapper{
     display: flex;
     justify-content: space-between;
 }
-
 .header-wrapper .logo h1{
-    font-size: 33px;
-    color: #565b5d;
-    margin: auto;
-    padding: 11px 0px;
+    font-size: 31px;
+    color: #6c7b82;
+    padding-top: 22px;
 }
 .navi{
     display: flex;
     list-style: none;
 }
-
-
 .navi li{
-
+    list-style: none;
 }
-
-.navi li a{
-    display: inline-block;
-    margin: 0px 8px;
-    color: #4d5458;
-    text-decoration: none;
-}
-
+.navi li a,
 .navi li i{
-    
-    cursor: pointer;
-
+    margin-right: 14px;
+    display: inline-block;
+    padding-top: 28px;
+    text-decoration: none;
+    color: #8396a1;
+} 
+.navi-active  li a{
+    color: #2cadee;
 }
 
 #hero{
@@ -60,275 +62,183 @@ header{
     background-attachment: fixed;
     background-color: white;
 }
-
 .hero-wrapper{
     display: flex;
     justify-content: space-between;
-    
 }
-
 .hero-wrapper .hero-text{
-
     flex-basis: 48%;
-    padding-top: 70px;    
 }
-
 .hero-wrapper .hero-text h1{
-   
     font-size: 52px;
-    line-height: 1.12;
-    color: #374045;
+    font-weight: 600;
+    padding-top: 131px;
 }
-
 .hero-wrapper .hero-text p{
-
-    font-size: 28.5px;
-    margin-top: -17px;
-    margin-bottom: 25px;
-    color: #374045;
-    
+    font-size: 26px;
+    color: #627078;
+    margin-top: 32px;
 }
-
-.primary-button{
-    font-size: 20px;
-    color: white;
-    padding: 13px 31px;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #009ce9;
-    border-radius: 17px;
-}
-
-
 .hero-wrapper .hero-image {
     flex-basis: 48%;
 }
-
 .hero-image img {
-
     display: block;
-    max-width: 373px;
     margin: auto;
-    padding: 60px 0px 0 0px;
+    max-width: 69%;
+    padding-top: 73px;
 }
-
 
 #about{
-    height: 445px;
+    height: 453px;
 }
-
 .about-wrapper{
-      display: flex;
-      justify-content: space-between;
-      padding: 36px;
-      
-      
+  display: flex;
+  justify-content: space-between;
+  
 }
-
 .about-wrapper .about-image{
-
-    flex-basis: 48%;
+   flex-basis: 48%;
 }
-
 .about-image img{
-
-    max-width: 100%;
-    padding-top: 33px;
+    max-width: 95%;
+    margin-left: 33px;
+    padding-top: 69px;
 }
-
 .about-wrapper .about-text{
-
-    flex-basis: 48%;
-    
-
+    flex-basis: 48.5%;
 }
-
 .about-wrapper .about-text h2{
-    
-    font-size: 39px;
-    margin-top: 22px;
-    color: #354346;
+    font-size: 35px;
+    margin-top: 71px;
     font-weight: 500;
-
+    color: #484d4d;
 }
-
 .about-wrapper .about-text p{
-    
-    margin-top: -23px;
-    color: #575757;
-
+    font-size: 20px;
+    padding-top: 10px;
+    color: #60738c;
 }
-
 .about-text ul{
-      
-    font-size: 18px;
     list-style: none;
-    margin-left: -39px;
-    line-height: 1.1;
+    font-size: 17px;
+    line-height: 1.3;
+    padding-top: 28px;
 }
-
 .about-text ul li{
-
-    margin-bottom: 13px;
+   padding-bottom: 13px;
+   color: #797fa7;
 }
-
 .about-text ul li i{
-    color: lightgreen;
+   color: lightgreen;
 }
-
 .para1 p{
-    font-size: 18px;
-    padding: 30px 12px;
-    
-    color: #575757;
+    margin-top: 5px;
+    color: #60738c;
 }
-
 
 #features{
     height: 595px;
 }
-
 .feature-wrapper{
-
     display: flex;
     justify-content: space-between;
-    
 }
- 
 .feature-wrapper .feature-lists{
-    
-    padding-top: 68px;
-    
-    
+    padding-top: 71px;
 }
-
 .feature-wrapper .feature-image{
-    
-    padding-top: 64px;
+    padding-top: 47px;
     text-align: right;
-    
 }
 .feature-image img{
-    max-width: 476px;
+    max-width: 490px;
     display: inline-block
 }
+}
 .feature-list {
-    padding: 1px;
-    padding-left: 18px;
     border: solid 5px transparent
 }
-
-
-.feature-list.active{
-    
-        border-left: solid 5px #009ce9;
-        color: #fbfbfb
+.feature-list.active{ 
+    border-left: solid 5px #009ce9;
+    color: #5e6f76;
+    background-color: #fbfbfb;
 }
-
 .feature-list h3{
-    font-size: 18px;
-    font-weight: 600;
-    color: #638398;
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: #667378;
+    padding-left: 9px;
 }
-
-
-
 .feature-list p{
+    font-size: 17px;
+    color: #627076;
+    margin-bottom: 45px;
+    padding-left: 9px;
     
-    margin-bottom: 16px;
-    color: #66757b;
 }
-
-
-
-
-
-
 
 
 #services{
-    
     height: 536px;
     background-color: #f7f8fa;
 }
-    
-
-
-
-
-
 .section-header{
     padding-top: 18px;
-    
 }
-
 .section-header h2{
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
     color: #637780;
     font-weight: 500;
+    padding-bottom: 32px;
+    padding-top: 36px;
 }
-
 .section-header p{
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
     color: #596777;
+    margin-bottom: 22px
 }
-
 .section-body{
-    
-
 }
 .card-type-1-wrapper{
     display: flex;
 }
-
-
 .card-type-1-wrapper .card-type-1{
-
     flex-basis: 25%;
     margin: 0px 30px;
     background-color: #fff;
-        
 }
-
 .card-type-1 .icon-wrapper{
-        
-        text-align: center;
-        margin-top: 38px;
-    }
-.card-type-1 h3{
-
     text-align: center;
-    font-size: 25px
-    color: #1a1a2b;
+    margin-top: 38px;
+    margin-bottom: 25px;
 }
-
+.card-type-1 h3{
+    text-align: center;
+    font-size: 25px;
+    color: #1a1a2b;
+    margin-bottom: 30px;
+}
 .card-type-1 p{
     text-align: center;
     font-size: 18px;
     color: #656e71;
     margin-bottom: 50px;
-
 }
-
-
 .card-type-1 .icon-wrapper i{
     font-size: 36px;
 }
-
 .card-type-1 .icon-wrapper.color-1 {
  color: violet;
 }
-
 .card-type-1 .icon-wrapper.color-2 {
  color: red;
 }
-
 .card-type-1 .icon-wrapper.color-3 {
 color: green;
 }
-
 .card-type-1 .icon-wrapper.color-4 i{
 color: blue;
 }
@@ -337,122 +247,83 @@ color: blue;
 #portfolio{
     height: 1129px;
 }
-
 .section-header{
+}
+.section-body{
     
 }
-
-.section-body{
-
-}
-
 .card-type-2-wrapper{
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
-
 .card-type-2-wrapper .card-type-2{
     flex-basis: 31.3%;
     margin: 11px 11px;
-    
 }
-
 .card-type-2 img{
-       max-width: 100%;
+     max-width: 100%;
+     padding-top: 10px;
 }
-
 
 
 #c2a{
-
-    
     background-image: url('../images/cta-bg.jpg');
     background-attachment: fixed;
 }
-
 .c2a-overlay{
     background-color: rgba(255, 255, 255, 0.7);
-    
 }
-
 .c2a-wrapper{
  display: flex;
  justify-content: space-between;
  height: 262px;
  align-items: center;
- 
 }
 .c2a-wrapper .c2a-text{
-
-    flex-basis: 70%
+ flex-basis: 70%
 }
-
 .c2a-text h2{
     font-size: 30px;
-    line-height: 7px;
+    line-height: 2;
 }
-
 .c2a-text p{
     font-size: 21px;
-    
 }
-
 .c2a-wrapper .c2a-link{
-    
-    flex-basis: 20%
+ flex-basis: 20%
 }
-
 
 
 #team{
-    
-   background-image: url('../images/team-bg.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
+     background-image: url('../images/team-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+     height: 690px;
+}
+ .team-overlay{
+    background-color: rgba(255, 255, 255, 0.7);
     height: 690px;
+}
+ .card-type-3-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+ .card-type-3-wrapper .card-type-3{
+   flex-basis: 32%;
+ }
+ .card-type-3 img{
+  max-width: 100%;
+ }
+ .card-type-3 .style{
+   background-color: white;
+   padding: 22px;
 
 }
-
-.team-overlay{
-   background-color: rgba(255, 255, 255, 0.7);
-   height: 690px;
-
+ .card-type-3 .style h3{
+   text-align: center;
+   padding-bottom: 15px;
 }
-
-.card-type-3-wrapper{
-   display: flex;
-   justify-content: space-between;
-}
-
-.card-type-3-wrapper .card-type-3{
-    
-    flex-basis: 32%;
-}
-
-.card-type-3 img{
-
-    max-width: 100%;
-}
-
-.card-type-3 .style{
-
-     background-color: white;
-     padding: 7px;
-
-}
-
-.card-type-3 .style h3{
-    
-    text-align: center;
-    
-}
-
-.card-type-3 .style p{
-    
-    text-align: center;
-
-    
+ .card-type-3 .style p{
+  text-align: center;
 }
