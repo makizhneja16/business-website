@@ -187,7 +187,7 @@ header{
     padding-top: 18px;
 }
 .section-header h2{
-    font-size: 34px;
+    font-size: 36px;
     text-align: center;
     color: #637780;
     font-weight: 500;
@@ -341,3 +341,141 @@ color: blue;
  .card-type-3 .card-content p{
   text-align: center;
 }
+
+#contact{
+    height: 806px;
+}
+.contact-wrapper{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 28px
+}
+.contact-wrapper .contact-info,
+.contact-wrapper .contact-form{
+   
+    flex-basis: 40%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: solid 3px #f3f4f4;
+    background-color: #fff;
+}
+.contact-wrapper .contact-form{
+  flex-basis: 57%;
+}
+
+.connect-details{
+    list-style: none;
+}
+.connect-details li{
+    display: flex;
+}
+.connect-details li .icon{
+    flex-basis: 57px;
+    height: 57px;
+    background: #f3f4f4;
+    border-radius: 50%;
+    color: #559de9;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.connect-details li .icon i{
+    display: inline-block;
+    margin-top: 18px;
+}
+.connect-details li .detail{
+    
+}
+.connect-details li .detail h2{
+    margin-left: 14px;
+    font-size: 22px;
+    padding-top: 14px;
+    color: #637291;
+}
+.connect-details li .detail p{
+    margin-left: 14px;
+    color: #a2a092;
+    line-height: 1.9;
+}
+.contact-map{
+
+}
+.contact-form{
+    
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.form-set{
+    display: grid;
+}
+.name{
+    flex-basis: 43%;
+}
+.name label{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #9e9b94;
+}
+.name input[type='text']{
+    height: 38px;
+}
+.Email{
+    flex-basis: 48%;
+}
+.Email label{
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #9e9b94;
+}
+.Email input[type='email']{
+    height: 37px;
+}
+.subject{
+    flex-basis: 96%;
+}
+.subject label{
+    margin-top: 29px;
+    font-size: 18px;
+    color: #9e9b94;
+}
+.subject input[type='subject']{
+    margin-top: 11px;
+    height: 38px;
+}
+.message{
+    flex-basis: 96%;
+    padding-top: 29px;
+}
+.message label{
+    color: #9e9b94;
+}
+.message textarea{
+    height: 236px;
+    margin-top: 10px;
+}
+.submit{
+
+}
+.submit label{
+   padding-top: 13px;
+}
+.submit input[type='submit']{
+    font-size: 18px;
+    padding: 18px;
+    background-color: lightskyblue;
+}
+
+footer{
+    height: 110px;
+    text-align: center;
+    font-size: 14.5px;
+    padding-top: 19px;
+    color: #707c85;
+    background-color: #f7f8fa;
+
+}
+
