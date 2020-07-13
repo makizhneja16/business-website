@@ -155,7 +155,7 @@ header{
     max-width: 490px;
     display: inline-block
 }
-}
+
 .feature-list {
     border: solid 5px transparent
 }
@@ -344,6 +344,7 @@ color: blue;
 
 #contact{
     height: 806px;
+    background: #eae5e5;
 }
 .contact-wrapper{
    display: flex;
@@ -356,7 +357,7 @@ color: blue;
     flex-basis: 40%;
     box-sizing: border-box;
     padding: 15px;
-    border: solid 3px #f3f4f4;
+    border: solid 3px #fff5f5;
     background-color: #fff;
 }
 .contact-wrapper .contact-form{
@@ -468,8 +469,20 @@ color: blue;
     padding: 18px;
     background-color: lightskyblue;
 }
+.primary-button-1{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 18px;
+    background: lightblue;
+    padding: 18px;
+    border-radius: 17%;
+    color: white;
+    text-decoration: none;
+}
+
 
 footer{
+    
     height: 110px;
     text-align: center;
     font-size: 14.5px;
