@@ -49,9 +49,6 @@ header{
     text-decoration: none;
     color: #8396a1;
 } 
-.navi-active  li a{
-    color: #2cadee;
-}
 
 #hero{
     height: 584px;
@@ -166,16 +163,16 @@ header{
 }
 .feature-list h3{
     font-size: 20px;
-    padding-bottom: 7px;
     color: #667378;
-    padding-left: 9px;
+    padding-left: 18px;
+    margin-top: 13px;
 }
 .feature-list p{
     font-size: 17px;
     color: #627076;
-    margin-bottom: 45px;
-    padding-left: 9px;
-    
+    padding-left: 18px;
+    padding-top: 13px;
+    padding-bottom: 25px;
 }
 
 
@@ -228,7 +225,7 @@ header{
     margin-bottom: 50px;
 }
 .card-type-1 .icon-wrapper i{
-    font-size: 36px;
+    font-size: 44px;
 }
 .card-type-1 .icon-wrapper.color-1 {
  color: violet;
@@ -237,7 +234,7 @@ header{
  color: red;
 }
 .card-type-1 .icon-wrapper.color-3 {
-color: green;
+color: #15da15;
 }
 .card-type-1 .icon-wrapper.color-4 i{
 color: blue;
@@ -397,8 +394,8 @@ color: blue;
     color: #a2a092;
     line-height: 1.9;
 }
-.contact-map{
-
+.contact-map iframe{
+     width: 100%;
 }
 .contact-form{
     
